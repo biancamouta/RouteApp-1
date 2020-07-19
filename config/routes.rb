@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :nodes
   resources :edges
-  resources :optimizations
+  get '/optimizations', to: 'optimizations#index'
   root 'graph#index'
 end

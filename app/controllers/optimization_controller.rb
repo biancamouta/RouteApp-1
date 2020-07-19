@@ -1,0 +1,2 @@
+class OptimizationController < ApplicationController
+end

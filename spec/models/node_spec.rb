@@ -1,9 +1,14 @@
 require 'rails_helper'
 
 RSpec.describe Node, type: :model do
-  let(:node_1) { Node.create(name: 'test_1', value: 0) }
+  let(:node) { create(:node) }
 
   it 'is valid' do
-    expect(node_1).to be_valid
+    expect(node).to be_instance_of(Node)
+  end
+
+  it 'is invalid' do
+    node.name = nil
+    expect(node).not_to be_valid
   end
 end

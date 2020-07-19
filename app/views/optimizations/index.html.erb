@@ -1,0 +1,26 @@
+  <% if flash[:notice]%>
+    <div class="alert alert-success" role="alert">
+        <%= flash[:notice] %>
+    </div>
+<%end%>
+
+<tbody>
+  <div class="box2">
+    <h3>Djikstra shortest paths:</h3>
+    <h4><%=@dijkstra%></h4>
+    <br>
+    <br>
+  </div>
+    <div class="box2">
+    <h3>BellMan Ford shortest paths:</h3>
+    <h4><%=@bellman_ford%></h4>
+    <br>
+    <br>
+  </div>
+    <div class="box2">
+    <h3>Prim Minimum Tree:</h3>
+    <h4><%=@prim_tree%></h4>
+    <br>
+    <br>
+  </div>
+</tbody>

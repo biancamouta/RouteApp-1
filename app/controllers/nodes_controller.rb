@@ -72,3 +72,4 @@ class NodesController < ApplicationController
       params.require(:node).permit(:name, :value)
     end
 end
+

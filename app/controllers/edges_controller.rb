@@ -15,6 +15,11 @@ class EdgesController < ApplicationController
   # GET /edges/new
   def new
     @edge = Edge.new
+    @nodes = Node.all
+    @array = []
+    @nodes.each do |node|
+      @array << [node.name, node.name]
+    end
   end
 
   # GET /edges/1/edit
@@ -25,6 +30,7 @@ class EdgesController < ApplicationController
   # POST /edges.json
   def create
     @edge = Edge.new(edge_params)
+    @nodes = Node.all
 
     respond_to do |format|
       if @edge.save

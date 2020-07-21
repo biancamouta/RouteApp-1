@@ -25,6 +25,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-ujs', '~> 0.1.0'
 gem 'rgl'
 gem 'bootstrap', '~> 4.5.0'
+gem 'twitter-bootstrap-rails'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

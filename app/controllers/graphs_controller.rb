@@ -12,6 +12,6 @@ require 'lazy_priority_queue'
 class GraphsController < ApplicationController
   def index
     @graph = GraphBuilder.call
-    @graph.write_to_graphic_file('jpg', 'public/graph2')  #tem como colocar cores
+    @graph.write_to_graphic_file('png', 'public/graph2') #tem como colocar cores
   end
 end

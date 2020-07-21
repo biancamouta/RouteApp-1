@@ -10,4 +10,64 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  */
- @import "bootstrap";
+
+@import "bootstrap";
+
+footer {
+background-color: #7473A6;
+color: blanchedalmond;
+}
+
+.navbar-brand {
+background-color: #7473A6;
+font-size: 20px;
+}
+
+.navbar {
+background-color: #7473A6;
+font-size: 17px;
+}
+
+body {
+background-color: #c4c2f1;
+}
+
+h3 {
+color: black;
+}
+
+.container {
+width: 95%;
+}
+
+.container-form {
+background-color: #AAA7F3;
+
+}
+
+.box2 {
+display: inline-block;
+width: 100%;
+margin-bottom: 40px;
+}
+
+.box3 {
+background-color: black;
+}
+
+.button{
+padding: 10px;
+}
+
+img {
+display: block;
+width: 150px;
+height: 200px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 25px;
+}
+
+table {
+border: #AAA7F3;
+}

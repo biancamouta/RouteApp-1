@@ -14,6 +14,11 @@ digraph RGL__DirectedAdjacencyGraph {
         label = c
     ]
 
+    Joinville [
+        fontsize = 8,
+        label = Joinville
+    ]
+
     a -> b [
         fontsize = 8
     ]

@@ -19,7 +19,6 @@
       <tr>
         <td><h4><%= node.name %></h4></td>
         <td><h4><%= node.value %></h4></td>
-        <td><%= link_to 'Show', node, class: "btn btn-success btn-sm" %></td>
         <td><%= link_to 'Edit', edit_node_path(node), class: "btn btn-warning btn-sm" %></td>
         <td><%= link_to 'Destroy', node, method: :delete, class: "btn btn-danger btn-sm" , data: { confirm: 'Are you sure?' } %></td>
       </tr>

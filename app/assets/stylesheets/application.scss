@@ -13,18 +13,34 @@
 
 @import "bootstrap";
 
+@font-face {
+  font-family: 'Abril-Fatface';
+  src: font-url('AbrilFatface-Regular.ttf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Josefin-Sans-Light';
+  src: font-url('JosefinSans-Light.ttf');
+}
+@font-face {
+  font-family: 'Karla-Regular';
+  src: font-url('Karla-Regular.ttf');
+}
+@font-face {
+  font-family: 'Rubik-Medium';
+  src: font-url('Rubik-Medium.ttf');
+}
+
 :root {  /* variaveis css */
   --color-background: #00163373;
   --background-navbar: #001633;
   --color-navbar-text:whitesmoke;
-}
-
-* {
-  font-family: Arial, Helvetica, sans-serif;
+  --color-navbar-hover: #001633;
 }
   
 body {
   background-color: var(--color-background);
+  font-family: 'Karla-Regular';
 }
   
 footer {
@@ -33,24 +49,14 @@ color: var(--color-navbar-text);
 font-size: 70%;
 }
 
-.page-container {
+.body-container {
   margin: 2% 5% 5% 5%;
+  // width: 90vm;
+  // max-width: 700px;
 }
 
 .box2 {
 margin-bottom: 20px;
-}
-
-img {
-display: block;
-margin-right: auto;
-margin-left: auto;
-border-radius: 10%;
-}
-
-td {
-  padding: 10px;
-  border: gray 1px solid;
 }
 
 //ONLY NAVBAR

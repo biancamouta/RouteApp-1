@@ -62,14 +62,14 @@ class NodesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_node
-      @node = Node.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_node
+    @node = Node.find(params[:id])
+  end
 
-    # Only allow a list of trusted parameters through.
-    def node_params
-      params.require(:node).permit(:name, :value)
-    end
+  # Only allow a list of trusted parameters through.
+  def node_params
+    params.require(:node).permit(:name, :value)
+  end
 end
 
